@@ -26,7 +26,7 @@ flutter create navigation_portfolio_app
 cd navigation_portfolio_app
 ```
 
-Option 2: Open Android Studio and go to File > New Project > New Flutter Project. Name it lab1. (Skip Step 2)
+Option 2: Open Android Studio and go to File > New Project > New Flutter Project. Name it lab2. (Skip Step 2)
 
 ### 2. Open the Project
 
