@@ -1,4 +1,4 @@
-# Lab 02: Navigation in Flutter
+# Lab2
 
 ## Description
 
