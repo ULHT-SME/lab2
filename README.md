@@ -223,6 +223,8 @@ onTap: () async {
 - Use `Navigator.pop(context, 'some_value')` to return data
 - `ScaffoldMessenger.of(context).showSnackBar()` for showing results
 - Action buttons can return different strings: 'shared', 'viewed', 'favorited'
+- Flutter example of passing data in screens: [Passing Data](https://docs.flutter.dev/cookbook/navigation/passing-data)
+- Returning data from screen: [Returning Data](https://docs.flutter.dev/cookbook/navigation/returning-data)
 
 ### Task 4: Bottom Navigation Bar with Multiple Tabs
 
@@ -294,6 +296,7 @@ Column(
 - `DefaultTabController` manages tab state automatically without StatefulWidget
 - For the second approach, each tab creates a new instance of MainNavigationScreen
 - Update main.dart to use `MainNavigationScreen()` as home
+- Example of BottomNavigation application: [BottomNavigation App](https://flutter.dev/blog/getting-to-the-bottom-of-navigation-in-flutter)
 
 ### Task 5: Challenge - Named Routes 
 
@@ -332,6 +335,8 @@ Navigator.pushNamed(
 - Arguments are passed as `Map<String, String>`
 - Extract arguments with: `final args = ModalRoute.of(context)!.settings.arguments as Map<String, String>;`
 - Access values with: `args['title']!`, `args['description']!`, etc.
+- Using named routes: [Named Routes](https://docs.flutter.dev/ui/navigation#using-named-routes)
+- Using the navigator: [Navigator usage](https://docs.flutter.dev/ui/navigation#using-the-navigator)
 
 ---
 
